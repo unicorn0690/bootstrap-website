@@ -8,12 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script><script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.6.22-min.js.gz"></script><script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('edce2a130b69ef93eb2d461670187859', {"autocapture":{"elementInteractions":true}});</script>
+<!--     <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script><script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.6.22-min.js.gz"></script><script>window.amplitude.add(window.sessionReplay.plugin({sampleRate: 1}));window.amplitude.init('edce2a130b69ef93eb2d461670187859', {"autocapture":{"elementInteractions":true}});</script>
     <script defer src="https://cdn.amplitude.com/libs/analytics-browser-2.6.2-min.js.gz"></script>
 <script defer src="https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.0-min.js.gz"></script>
 <script type="module">
   amplitude.init('edce2a130b69ef93eb2d461670187859');
   window.amplitude.add(window.amplitudeAutocapturePlugin.plugin());
+</script> -->
+    <script src="https://cdn.amplitude.com/libs/analytics-browser-2.10.0-min.js.gz"></script>
+<script>
+  window.amplitude.init("edce2a130b69ef93eb2d461670187859", {
+      autocapture: { elementInteractions: true }
+  });
 </script>
 </head>
 <body>
